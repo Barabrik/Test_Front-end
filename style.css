@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap%22");
+
+body {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  color: white;
+  min-height: 100vh;
+  background: url("https://phonoteka.org/uploads/posts/2022-02/thumbs/1643889031_4-phonoteka-org-p-fon-dlya-testa-4.jpg") 0/cover no-repeat;
+}
+
+.main {
+  display: none;
+}
+
+.question {
+  font-size: 100px;
+}
+
+.ans-row {
+  display: flex;
+  box-sizing: border-box;
+}
+.answer {
+  width: 65px;
+  height: 65px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.start-btn {
+  font-size: 35px;
+  padding: 0.5em;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-btn:hover {
+  background: #bbbbbb;
+}
